@@ -1,0 +1,28 @@
+elliptical_10_2:
+----------------
+
+from:
+https://raw.githubusercontent.com/deric/clustering-benchmark/master/src/main/resources/datasets/artificial/elliptical_10_2.arff
+
+info:
+% Data_10_2 or AD_10_2: This data is in 2-d space, and has 10 clusters.  The total number of  points is 500.
+%
+% If you use this data, please quote the following references:
+%
+% S. Bandyopadhyay and U. Maulik, ``Nonparametric genetic clustering: Comparison validity indices'',
+% IEEE Transactions on Systems, Man and Cybernetics, Part C, vol. 31, no. 1, pp. 120-125, 2001
+%
+% S. Bandyopadhyay and U. Maulik, ``Genetic Clustering for Automatic Evolution
+% of Clusters and Application to Image Classification'',  Pattern Recognition, vol.35,
+% pp. 1197-1208, 2002
+%
+% S. Bandyopadhyay and S. K. Pal, ``Classification and Learning Using Genetic
+% Algorithms: Applications in Bioinformatics and Web Intelligence", Springer,
+% Heidelberg, 2007
+% 
+% source: http://www.isical.ac.in/~sanghami/data.html
+@RELATION elliptical_10_2
+
+@ATTRIBUTE x REAL
+@ATTRIBUTE y REAL
+@ATTRIBUTE class {0,1,2,3,4,5,6,7,8,9}
